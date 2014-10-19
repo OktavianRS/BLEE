@@ -15,3 +15,98 @@
 .cf {
     *zoom: 1;
 }
+.float-left{
+    float: left;
+
+
+}
+.float-right{
+    float:right;
+
+}
+a{
+    text-decoration: none;
+     color: #fff;
+}
+
+body{
+    background: url(../img/Background.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1000px;
+    font-family: Roboto,Lobster,Arial;
+}
+.wrapper{
+    display: block;
+    margin: auto;
+    width: 1363px;
+    border: 1px solid;
+    box-shadow: 2px;
+}
+
+header{
+    display: inline-block;
+    background: url(../img/Background.jpg) no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+    width: 100%;
+}
+
+.Logo{
+
+    font-family: Lobster;
+    font-size: 72px;
+    background-color: rgba(0,0,0,0.2);
+    border-bottom: 14px solid #7ca2ba;
+    border-bottom-right-radius: 32%;
+    border-bottom-left-radius: 32%;
+    width: 10%;
+    height: 69px;
+    padding: 50px;
+    padding-top: 14px;
+    text-align: center;
+
+
+
+}
+
+.main-nav{
+    display: block;
+    background-color: rgba(0,0,0,0.2);
+   width: 41.3%;
+    border-bottom: 6px solid #7ca2ba;
+}
+.nav-li{
+   font-family: Lobster;
+    font-size: 40px;
+    display: block;
+    padding: 27px;
+    padding-left: 38px;
+    padding-right: 30px;
+}
+
+.head-container{
+    background-color: rgba(0,0,0,0.2);
+}
+.container{
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.Citate {
+    font-size: 59px;
+    font-family: Lobster;
+    color: #fff;
+    margin-top: 600px;
+}
+.By_authors{
+    color: #fff;
+    font-size: 23px;
+    font-family: Lobster;
+}
+
