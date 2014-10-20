@@ -15,6 +15,9 @@
 .cf {
     *zoom: 1;
 }
+li , a{
+     transition: all,color .3s ease-in,background .3s ease-in,font-size .3s ease-in;
+}
 .float-left{
     float: left;
 
@@ -31,6 +34,7 @@ a{
 
 body{
     background: url(../img/Background.jpg) no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -74,18 +78,24 @@ header{
 }
 
 .main-nav{
+    height: 100px;
     display: block;
     background-color: rgba(0,0,0,0.2);
    width: 41.3%;
     border-bottom: 6px solid #7ca2ba;
 }
 .nav-li{
+
+    border-radius: 55px;
    font-family: Lobster;
-    font-size: 40px;
+    font-size: 34px;
     display: block;
     padding: 27px;
-    padding-left: 38px;
-    padding-right: 30px;
+    padding-left: 69px;
+    padding-right: 69px;
+}
+.nav-li:hover{
+    font-size:350%;
 }
 
 .head-container{
@@ -108,5 +118,10 @@ header{
     color: #fff;
     font-size: 23px;
     font-family: Lobster;
+    padding-bottom: 50px;
 }
 
+
+.background-section {
+    height: 700px;
+}
