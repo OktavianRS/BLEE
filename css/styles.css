@@ -15,8 +15,8 @@
 .cf {
     *zoom: 1;
 }
-li , a, .button{
-     transition: all,color .3s ease-in,background .3s ease-in,font-size .3s ease-in;
+li , a, .button,i{
+     transition: all,color .3s ease-in,background-color .3s ease-in,font-size .3s ease-in;
 }
 .float-left{
     float: left;
@@ -33,39 +33,29 @@ a{
 }
 
 body{
-  background: black;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     min-width: 1000px;
     font-family: Lobster,Roboto,Arial;
-}
-.wrapper{
-    display: inline-block;
-
-    width: 100%;
-
-}
-
-header{
-    display: inline-block;
       background: url(../img/Background-other.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-size: cover;
-   background-attachment: fixed;
-    width: 100%;
 }
+
+header {
+   padding: 1px;
+}
+
 
 .header-nav{
     display: block;
-    padding: 10px;
+    padding: 30px 0;
 }
 .main-nav:nth-child(3){
     font-size: 60px;
     background-color: rgba(0,0,0,0.6);
-    padding: 1%;
     font-family: Lobster;
     text-align: center;
     border-bottom-left-radius: 40px;
@@ -73,58 +63,55 @@ header{
     border-bottom: 8px solid #7ca2ba;
 }
 .header-nav:hover{
-    font-size: 40px;
+    font-size: 45px;
+
 }
 
 .main-nav{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: center;
-    padding: 1%;
-    width: 18%;
+    width: 20%;
     border-bottom: 8px solid #7ca2ba;
-    display: inline-block;
     float: left;
     background-color: rgba(0,0,0,0.4);
 }
 
 
 
-.head-container{
-    background-color: rgba(0,0,0,0.2);
-}
-.container{
 
+.container{
+    padding-bottom: 40px;
+    color: white;
     text-align: center;
     width: 80%;
     display: block;
     margin: auto;
+     background-color: rgba(0,0,0,0.7);
 }
 
 .Citate {
+    padding: 20px;
+    margin-top: 55%;
     font-size: 59px;
     font-family: Lobster;
     color: #fff;
-    margin-top: 52%;
+    border-bottom: 1px solid;
+
 }
 .By_authors{
+    padding: 36px;
     color: #fff;
     font-size: 23px;
     font-family: Lobster;
-    padding-bottom: 50px;
+
 }
 
 
-.after-head {
- border-radius: 50%;
-   background: #f2baba;
-    background-size: cover;
-    display: inline-block;
-}
+
 .information{
     padding: 40px;
     display: inline-block;
- color: #lll;
     font-size: 80px;
 }
 .information-par{
@@ -138,7 +125,6 @@ header{
     font-size: 50px;
 }
 .button{
-    color: black;
     border-radius: 50px;
     padding: 15px;
     display: inline-block;
@@ -147,65 +133,48 @@ header{
     border: 4px solid;
 }
 
-
-
-
-
-.container_foot {
-    text-align: center;
-    background: #222222;
-    display: block;
-    color: #575656;
-}
-.container_foot > h2{
+.container > h2{
+    margin-top:
     color: white;
     font-size: 40px;
     font-weight: 900;
-    padding-top: 50px;
+    padding-top: 47px;
 }
-.container_foot > p{
-    padding-top: 40px;
+.container > p{
     font-size: 20px;
-    padding-bottom: 40px;
+    padding: 40px;
 }
 
 .contact-icons ul li  {
-    display: block;
-    font-size: 25px;
-    padding-left:43px;;
     float: left;
-    text-align: center;
-
-
 }
-i{
-
-    color: #5a4e4e;
-
-
+.contact-icons i{
+    padding: 20px;
+    color: #907e7e;
+    font-size: 40px;
 }
-
 .contact-icons {
     display: inline-block;
     margin: auto;
-    text-align: center;
     text-decoration: none;
-    text-align: center;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 i:hover{
+    font-size: 50px;
     color: white;
 }
-hr{
-    color: #5a4e4e;
-    margin: auto;
-    width: 80%;
-   margin-top: 50px;
-}
+
 .sign{
-     margin: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+
 
 }
 .sign a{
      text-decoration: none;
 color: inherit;
 }
+
+
