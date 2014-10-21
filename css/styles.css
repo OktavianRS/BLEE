@@ -134,12 +134,14 @@ header {
 }
 
 .container > h2{
-    margin-top:
+    border-radius: 40px;
+   border: 1px solid white;
     color: white;
     font-size: 40px;
     font-weight: 900;
-    padding-top: 47px;
+    padding: 30px;
 }
+
 .container > p{
     font-size: 20px;
     padding: 40px;
@@ -150,27 +152,25 @@ header {
 }
 .contact-icons i{
     padding: 20px;
-    color: #907e7e;
+    color:  #fff;
     font-size: 40px;
 }
 .contact-icons {
     display: inline-block;
     margin: auto;
     text-decoration: none;
-    border-bottom: 2px solid white;
+    border-bottom: 8px solid #7ca2ba;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 i:hover{
     font-size: 50px;
-    color: white;
+    color: #7ca2ba;
 }
 
 .sign{
     margin-top: 20px;
     font-size: 20px;
-
-
 }
 .sign a{
      text-decoration: none;
