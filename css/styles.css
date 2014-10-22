@@ -15,8 +15,9 @@
 .cf {
     *zoom: 1;
 }
+
 li , a, .button,i{
-     transition: all,color .3s ease-in,background-color .3s ease-in,font-size .3s ease-in;
+     transition: all,color .3s ease-in,background-color .3s ease-in,font-size .3s ease-in,display .2s ease-in;
 }
 .float-left{
     float: left;
@@ -54,7 +55,8 @@ header{
     display: block;
     padding: 30px 0;
 }
-.main-nav:nth-child(3){
+ .main-nav:nth-child(3){
+
     font-size: 60px;
     background-color: rgba(0,0,0,0.6);
     font-family: Lobster;
@@ -68,6 +70,7 @@ header{
 }
 
 .main-nav{
+    color: #fff;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: center;
@@ -102,15 +105,13 @@ font-size: 60px;
       background-color: rgba(0,0,0,0.7);
     margin: auto;
     text-align: center;
-    margin-top: 45%;
+    margin-top: 40%;
     font-family: Lobster;
     width: 75%;
 }
 
 
 
-.information{
-}
 .information-par{
     padding: 30px;
     text-align-last: center;
@@ -129,8 +130,6 @@ font-size: 60px;
     border: 4px solid;
 }
 
-.footer-head{
-}
 
 .container > p{
     font-size: 20px;
@@ -168,6 +167,37 @@ i:hover{
 .sign a{
      text-decoration: none;
 color: inherit;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.list{
+    padding: 33px 0;
+    width: 19%;
+      font-size: 60px;
+    background-color: rgba(0,0,0,0.6);
+    font-family: Lobster;
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom: 8px solid rgba(0,0,255,0.2);
+}
+
+
+#my-drop-down-menu li.list{
+	float:left; /* (!) */
+	display:block; /* (!) */
+}
+
+
+#my-drop-down-menu ul.child{
+
+	display: none;
+}
+
+#my-drop-down-menu li:hover ul.child{
+display: inline-block;
+
 }
 
 
