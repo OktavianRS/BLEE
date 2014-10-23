@@ -191,13 +191,19 @@ color: inherit;
 
 
 #my-drop-down-menu ul.child{
-
-	display: none;
+margin-bottom: -190px;
+visibility: hidden;
+    opacity: 0;
+     transition: all .3s ease-in;
 }
 
 #my-drop-down-menu li:hover ul.child{
-display: inline-block;
-
+    margin-bottom: 0px;
+visibility: visible;
+    opacity: 1;
 }
-
+#my-drop-down-menu .down:hover{
+    border: 1px solid rgba(0,0,255,0.3);
+    border-radius: 40px;
+}
 
