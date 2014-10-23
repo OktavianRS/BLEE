@@ -202,8 +202,8 @@ visibility: hidden;
 visibility: visible;
     opacity: 1;
 }
-#my-drop-down-menu .down:hover{
-    border: 1px solid rgba(0,0,255,0.3);
-    border-radius: 40px;
+#my-drop-down-menu .down:hover a{
+    display: block;
+color: black;
 }
 
